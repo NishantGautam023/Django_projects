@@ -5,3 +5,6 @@ A list of Projects Done with Django
 -  Voting APP + Charts
 -  BLOG APP
 -  QUOTES APP
+- Ecommerce Website
+- Django Crash course
+- Moden Portfolio

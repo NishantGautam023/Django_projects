@@ -7,7 +7,7 @@ from django.shortcuts import render
 
 def store(request):
     context = {}  # creating a context dictionary where we will pass some data, making empty for now
-    return render([request], ['store/store.html'], [context])
+    return render(request, 'store/store.html', context)
 
 
 def cart(request):
@@ -18,4 +18,3 @@ def cart(request):
 def checkout(request):
     context = {}
     return render(request, 'store/checkout.html', context)
-
